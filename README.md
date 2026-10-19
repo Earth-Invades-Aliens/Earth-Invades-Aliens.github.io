@@ -9,14 +9,6 @@
 
 ## 立即开玩
 
-推荐直接双击：
-
-**`TURBO_TOWER_MUST_FALL.html`**
-
-这是一个完全离线的单文件版本（HTML + CSS + JS 全部内嵌，约 186 KB），不需要安装、不需要联网、不需要本地服务器。
-
-也可以打开源码版 `index.html`（需要保留同目录下的 `style.css` 和 `js/`）。
-
 > 建议使用桌面版 Chrome / Edge / Firefox，耳机或音箱体验更好。  
 > 第一次点击画面会启动 WebAudio 合成音乐与音效。
 
@@ -100,4 +92,4 @@ node tools/build-single.mjs
 ## 声明
 
 本项目是出于对 Nitrome 经典 Flash 游戏 **Nitrome Must Die** 的喜爱而制作的原创同人作品，与 Nitrome 没有任何关联。  
-代码与美术均为本项目原创，可自由学习、修改与非商业分享。
+代码与美术均为本项目原创。
