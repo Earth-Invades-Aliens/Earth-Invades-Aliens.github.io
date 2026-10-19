@@ -1,1 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#08080f">
+<title>TURBO TOWER MUST FALL — 12 层电梯射击</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page-glow" aria-hidden="true"></div>
 
+<main class="cabinet">
+  <header class="cabinet-top">
+    <div class="brand"><span class="led"></span> TURBO ARCADE <span class="sep">/</span> NO. 012</div>
+    <div class="tagline">12 FLOORS &middot; ONE LIFT &middot; NO REFUNDS</div>
+  </header>
+
+  <div class="screen" id="screen">
+    <canvas id="game" width="640" height="360" aria-label="Turbo Tower Must Fall，一款像素风横版电梯射击游戏"></canvas>
+    <div class="crt" aria-hidden="true"></div>
+    <div class="bezel tl" aria-hidden="true"></div>
+    <div class="bezel tr" aria-hidden="true"></div>
+    <div class="bezel bl" aria-hidden="true"></div>
+    <div class="bezel br" aria-hidden="true"></div>
+    <div class="power-hint" id="powerHint">CLICK TO START</div>
+  </div>
+
+  <footer class="cabinet-bottom">
+    <div class="controls">
+      <span><b>A</b>/<b>D</b> 移动</span>
+      <span><b>SPACE</b> 跳跃</span>
+      <span><b>SHIFT</b> 冲刺</span>
+      <span><b>鼠标</b> 瞄准 / 按住左键射击</span>
+      <span><b>E</b> 乘电梯</span>
+      <span><b>ESC</b> 暂停</span>
+    </div>
+    <div class="meta"><b>F</b> 全屏 &middot; <b>M</b> 静音 &middot; <b>1</b>/<b>2</b> 选择</div>
+  </footer>
+</main>
+
+<div class="farewell">A LOVING ARCADE HOMAGE &mdash; BUILT WITH CANVAS, BAD PIXELS &amp; NO EXCUSES.</div>
+
+<noscript><div class="noscript">这个游戏需要启用 JavaScript。</div></noscript>
+
+<script src="js/core.js"></script>
+<script src="js/data.js"></script>
+<script src="js/art.js"></script>
+<script src="js/game.js"></script>
+</body>
+</html>
